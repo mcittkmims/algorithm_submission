@@ -1,0 +1,55 @@
+# Ignore PyCharm-specific files
+.idea/
+*.iml
+workspace.xml
+
+# Ignore Python compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore Virtual Environment
+venv/
+.env/
+env/
+*.venv
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore logs and system files
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Ignore test coverage and profiling data
+.coverage
+*.cover
+*.py,cover
+htmlcov/
+.cache/
+*.prof
+
+# Ignore build and distribution files
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Ignore environment variable files
+.env
+.envrc
+*.secrets
+config.json
+
+# Ignore database and data files
+*.sqlite3
+*.db
+*.csv
+*.dat
+*.db-journal
+
+# Ignore temporary files
+*.swp
+*.swo
